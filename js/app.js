@@ -1,7 +1,15 @@
 // Problem: User interaction doesn't provide desired results.
 // Solution: Add interactvity so the user can manage daily tasks.
 
+var taskInput = document.getElementById("new-task"); //new-task
+var addButton = document.getElementsByTagName("button")[0];//first button
+var incompleteTasksHolder = document.getElementById("incomplete-tasks"); // incomplete-tasks
+var completedTasksHolder = document.getElementById("completed-tasks"); //completed-tasks
+
+
 // Add a new task
+	var addTask = function() {
+		console.log("Add task...");
 	// When the button is pressed
 	// Create a new list item with the text from #new-task
 		// input (checkbox)
@@ -11,25 +19,45 @@
 		// button.delete
 		// Each elements, needs to modified and appended
 
-// Edit an existing task
-		// When the Edit button is pressed
-			// if the class of the parent is .editMode
-				// Switch from .editMode
-				// label text become input's value
-			// else
-				// Switch to editMode 
-				// input value becomes the label's text
+	}
 
+// Edit an existing task
+	var editTask = function(){
+		console.log("Edit task...");
+	// When the Edit button is pressed
+	// if the class of the parent is .editMode
+	// Switch from .editMode
+	// label text become input's value
+		// else
+			// Switch to editMode 
+			// input value becomes the label's text
 			// Toggle .editMode on the parent
+}
+		
 
 // Delete an existing task
-	//When the Delete button is pressed
+	var deleteTask = function() {
+		console.log("Delete task...");
+		//When the Delete button is pressed
 		// Remove the parent list item from the ul
+}
 
 // Mark a Task as Complete
+	var taskCompleted = function() {
+		console.log("Complete task...");
 	//When the checkbox is checked
-	// Append the task list item to the #completed-tasks
+	// Append the task list item to the #completed-tasks	
+}
 
 // Mark a task as Incomplete
+	var taskIncomplete = function() {
+		console.log("Task incomplete");
 	//When the checkbox is unchecked
-	// Append the task list item to the #incompleted-tasks
+	// Append the task list item to the #incompleted-tasks	
+}
+
+//Set the click handler to the addTask function
+addButton.onclick = addTask;
+
+
+
