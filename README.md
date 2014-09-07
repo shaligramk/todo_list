@@ -14,3 +14,6 @@ Usage
 
 Alternative URL: shaligramk.github.io/todo_list
 
+License
+====================
+Todo_List is licensed under the [MIT License](http://opensource.org/licenses/MIT).
