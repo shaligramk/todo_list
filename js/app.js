@@ -6,7 +6,6 @@ var addButton = document.getElementsByTagName("button")[0];//first button
 var incompleteTasksHolder = document.getElementById("incomplete-tasks"); // incomplete-tasks
 var completedTasksHolder = document.getElementById("completed-tasks"); //completed-tasks
 
-
 //New Task List Item
 var createNewTaskElement = function(taskString) {
 	//Create List Item 
@@ -68,7 +67,6 @@ var editTask = function(){
 	
 	listItem.classList.toggle("editMode");
 }
-		
 
 // Delete an existing task
 var deleteTask = function() {
