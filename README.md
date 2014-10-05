@@ -1,7 +1,7 @@
 Todo App with JavaScript and HTML5 localStorage
 ==========
 
-A vanilla Javascript Todo-app which leverages HTML5 localStorage to store its data. 
+A responsive Todo-app built with plain JavaScript and HTML5
 
 Usage
 ====================

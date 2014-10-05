@@ -2,10 +2,7 @@
 body {
   background: #fff;
   color: #333;
-  font-family: Lato, sans-serif;
-  background: transparent url(../img/bg.jpg);
-  background-size: cover;
-  -webkit-background-size: cover;
+  font-family: 'Open Sans', sans-serif;
 }
 .container {
   display: block;
@@ -33,7 +30,6 @@ button {
   font-size: 15px;
   width: 60px;
   margin: 10px 0 0;
-  font-family: Lato, sans-serif;
   cursor: pointer;
 }
 button:hover {
@@ -130,9 +126,9 @@ ul li.editMode label {
 }
 
 ul#completed-tasks {
-margin-bottom: 120px;
+  margin-bottom: 120px;
 }
 
 button.delete, button.edit{
-  float: right;
+  letter-spacing: 1px;
 }
