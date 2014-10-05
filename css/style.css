@@ -1,14 +1,10 @@
 /* App Styling */
 body {
-  background: #fff;
+  background: #EAEAEA;
   color: #333;
   font-family: 'Open Sans', sans-serif;
 }
-.container {
-  display: block;
-  width: 600px;
-  margin: 100px auto 0;
-}
+
 ul {
   margin: 0;
   padding: 0;
@@ -27,22 +23,24 @@ button {
   background: none;
   border: 0px;
   color: #888;
-  font-size: 15px;
+  font-size: 14px;
   width: 60px;
   margin: 10px 0 0;
   cursor: pointer;
+  padding-top: 30px;
 }
 button:hover {
-  color: #333;
+  color:#5da423;
 }
 
 
 /* Heading */
 .heading{
   text-align: center;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 1.1;
   font-size: 3em;
+  margin-top: 50px;
 }
 
 h3,
@@ -71,7 +69,7 @@ input[type="text"]:focus {
   color: #333;
 }
 
-/* New Task */
+ New Task 
 label[for='new-task'] {
   display: block;
   margin: 0 0 20px;
@@ -79,9 +77,15 @@ label[for='new-task'] {
 input#new-task {
   float: left;
   width: 318px;
+  height: 2.15em;
+  margin-top: 30px;
 }
 p > button:hover {
   color: #0FC57C;
+}
+
+.addItem {
+margin-top: 40px;
 }
 
 /* Task list */
