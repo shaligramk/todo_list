@@ -16,21 +16,30 @@ li, h3 {
     clear: both;
     list-style: none;
 }
+/* Buttons */
+
 input, button {
     outline: none;
 }
-button {
-    background: none;
+.add {
     border: 0px;
     color: #888;
     font-size: 14px;
-    width: 60px;
-    margin: 10px 0 0;
+    width: 10px;
+    height: 20px;
+    margin-top: 25px;
     cursor: pointer;
-    padding-top: 30px;
+    background: none;
 }
 button:hover {
     color: #5da423;
+}
+button.delete, button.edit {
+    letter-spacing: 1px;
+    width: 85px;
+    color: #888;
+    background: none;
+    font-size: 14px;
 }
 /* Heading */
 
@@ -94,9 +103,9 @@ li > input[type="checkbox"] {
     top: 15px;
 }
 li > label {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 40px;
-    width: 237px;
+    width: 350px;
     padding: 0 0 0 11px;
 }
 li > input[type="text"] {
@@ -124,10 +133,4 @@ ul li.editMode label {
 }
 ul#completed-tasks {
     margin-bottom: 120px;
-}
-button.delete, button.edit {
-    letter-spacing: 1px;
-    padding-top: 0px;
-    margin-top: 15px;
-    width: 100px;
 }
